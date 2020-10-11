@@ -16,4 +16,4 @@ Used :
 •        pre-defined model(ResNet50) as baseline, with pre-trained weights (imagnet)
 
 
-The presentation of this project can be found [here](https://www.canva.com/design/DAEKTC7sq38/97e2RTc1GITfp5RDV7I_ag/view?utm_content=DAEKTC7sq38&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+The presentation of this project can be found [here](https://www.canva.com/design/DAEKTC7sq38/97e2RTc1GITfp5RDV7I_ag/view?utm_content=DAEKTC7sq38&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)
