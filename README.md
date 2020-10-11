@@ -2,7 +2,7 @@ Best Artworks of All Time – final Data Science project at Spiced Academy
 
 The dataset is from Kaggle, it was scraped from artchellenge.ru 
 
-It includes
+It includes:
 
 * a csv file: a dataset of information of each artist – used it for data exploration and visualization. It was the first part of my presentation 
 * an images.zip: a collection of full-size images, divided into folders by painters, used this part of the dataset to build a model to predict the artist. 
