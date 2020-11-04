@@ -17,7 +17,7 @@ It includes:
 
 It is an imbalanced dataset. The model was trained on 38 painters who have a minimum of 80 paintings each.
 
-Used ... :
+Used :
 
 * ImageDataGenerator
 
