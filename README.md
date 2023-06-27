@@ -1,29 +1,29 @@
 ## Best Artworks of All Time
 
-This project contains my solution for the final Data Science project at Spiced Academy.
+This project aimed to create a convolutional neural network (CNN) capable of recognizing artists based on the colours used and geometric patterns present in their artwork.
 
-### Challenge description 
+**Dataset**
 
-Create a convolutional neural network to recognise the artists looking the colors used and the geometric patterns inside the pictures.
+The dataset utilized in this project was obtained from [Kaggle](https://www.kaggle.com/) and scraped from [artchallenge.ru](http://artchallenge.ru/).
 
-### Dataset
+It includes the following components:
 
-The dataset is from [Kaggle](https://www.kaggle.com/), it was scraped from [artchallenge.ru](http://artchallenge.ru/).
+* artists.csv: This CSV file contains information about each artist, which was used for data exploration and visualization. It formed the initial part of my presentation.
 
-It includes:
+* images.zip: This compressed file consists of a collection of full-size images, categorized into folders based on the respective painters. This portion of the dataset was used to train a model capable of predicting the artist based on an input image.
 
-* a csv file: a dataset of information of each artist – used it for data exploration and visualization. It was the first part of my presentation. 
-* an images.zip: a collection of full-size images, divided into folders by painters, used this part of the dataset to build a model to predict the artist. 
+It is important to note that the dataset is imbalanced, with training performed on 38 painters who each have a minimum of 80 paintings.
 
-It is an imbalanced dataset. The model was trained on 38 painters who have a minimum of 80 paintings each.
+**Methodology**
 
-Used :
+The following techniques and tools were employed in this project:
 
-* ImageDataGenerator
+* ImageDataGenerator: This tool was used for data augmentation, enabling the generation of additional training images to enhance the model's performance
 
-* Class_weights
+* Class_weights: Class weights were employed to address the imbalance within the dataset during model training
 
-* pre-defined model(ResNet50) as baseline, with pre-trained weights (imagnet)
+* Pre-defined model (ResNet50): A pre-trained ResNet50 model with weights from ImageNet was utilized as a baseline. This model served as a starting point and provided a solid foundation for predicting artists based on the artwork
+  
+**Conclusion**
 
-
-The presentation of this project can be found [here](https://www.canva.com/design/DAEKTC7sq38/97e2RTc1GITfp5RDV7I_ag/view?utm_content=DAEKTC7sq38&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent).
+The Best Artworks of All Time project involved the development of a convolutional neural network to recognize artists based on colour usage and geometric patterns present in their artwork. Leveraging the provided dataset, various techniques and pre-trained models were employed to achieve accurate predictions.
